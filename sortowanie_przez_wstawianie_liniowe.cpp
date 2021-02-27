@@ -1,3 +1,5 @@
+//Sortowanie przez wstawianie liniowe
+
 #include <iostream>
 
 void sortowanie(int *tab, int n) {
