@@ -1,3 +1,5 @@
+//Wyliczanie pierwiastka z liczby metoda Newtona
+
 #include <iostream>
 #include <cmath>
 

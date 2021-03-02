@@ -1,3 +1,5 @@
+//Sprawdzanie czy podane slowa sa anagramami
+
 #include <iostream>
 #include <stdio.h>
 #include <string.h>

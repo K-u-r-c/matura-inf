@@ -1,3 +1,5 @@
+//Sprawdzanie czy slowo to palindrom
+
 #include <iostream>
 #include <string.h>
 
