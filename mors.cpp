@@ -11,8 +11,10 @@ std::string slownik[26] = {
 std::string tlumacz(std::string slowo) {
     std::string wynik = "";
 
-    for(int i = 0; i < slowo.length(); i++)
-        wynik += slownik[char(std::tolower(slowo[i]) - 97)] + "/";
+    for(int i = 0; i < slowo.length(); i++) {
+        wynik += slownik[char(std::tolower(slowo[i]) - 97)];
+        if(i + 1 < slowo.length()) wynik += "/";
+    }
 
     return wynik;
 }
