@@ -16,7 +16,7 @@ double pole(int a, int b, int n) {
         suma += podst_a + podst_b;
         podst_a = podst_b;
     }
-    
+
     return suma * 0.5 * h;
 }
 
