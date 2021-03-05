@@ -2,7 +2,7 @@
 
     "files.associations": {
         "iostream": "cpp",
-        "array": "cpp",
+         "array": "cpp",
         "atomic": "cpp",
         "bit": "cpp",
         "*.tcc": "cpp",
