@@ -2,7 +2,7 @@
 
     "files.associations": {
         "iostream": "cpp",
-         "array": "cpp",
+        "array": "cpp",
         "atomic": "cpp",
         "bit": "cpp",
         "*.tcc": "cpp",
@@ -74,6 +74,8 @@
         "thread": "cpp",
         "typeindex": "cpp",
         "valarray": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "stdio.h": "c",
+        "stdlib.h": "c"
     }
 }
