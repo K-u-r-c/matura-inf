@@ -13,6 +13,11 @@ void fibonacci(int n) {
     }
 }
 
+unsigned long long rekurencyjny_fibonacci(int n){
+    if(n == 1 || n == 2) return 1;
+    else return rekurencyjny_fibonacci(n - 1) + rekurencyjny_fibonacci(n - 2);
+}
+
 int main(int argc, char** argv) {
     int n;
 
