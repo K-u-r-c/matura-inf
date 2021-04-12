@@ -21,8 +21,7 @@ int main(int argc, char** argv) {
 	for (auto x : kraje_v) {
 		if (find(wyswietlone.begin(), wyswietlone.end(), x) != wyswietlone.end()) {
 			continue;
-		}
-		else {
+		} else {
 			cout << x << " " << count(kraje_v.begin(), kraje_v.end(), x) << endl;
 			
 			out << x << " " << count(kraje_v.begin(), kraje_v.end(), x) << endl;
